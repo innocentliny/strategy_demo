@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: strategy demo
+ip:
+  service: ip2location
