@@ -32,3 +32,6 @@ New requirements:
   @ConditionalOnProperty(name = "ip.service", havingValue = "new_service_name")
   ```
 * Note: only one IP parsing service can be used at the same time.
+
+## k8s support
+Edit `IP_SERVICE` in `.env` file to switch IP parsing service.
